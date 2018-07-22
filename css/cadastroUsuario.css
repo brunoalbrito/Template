@@ -1,0 +1,32 @@
+.btn{
+    width: 100%;
+    margin-bottom:5%!important; 
+    margin-top:5%!important;
+    font-weight: bold; 
+    background-color: #02207a;
+    border-color: #02207a;
+    color: white;
+}
+.col-10{
+    margin-top: 2%;
+}
+label{
+    margin-bottom: 1%;
+}
+.fa-user-plus{
+    margin-right: 5%;
+}
+.container{
+    margin-top: 1%;
+    color: white;
+}
+.col-md-4{
+    border-radius: 1.5%; 
+    box-shadow: 3px 3px 5px 5px #888888;
+    background-color: #F65E01;
+}
+.input-group-text{
+    background-color: #02207a;
+    color: white;
+    border-color: #02207a;
+}

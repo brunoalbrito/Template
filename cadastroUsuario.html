@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro Usuário</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/cadastroUsuario.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-4 col-sm-8 col-xs-8 mx-auto text-center">
+            <h1>_Cadastro Usuário</h1>
+            <form>
+                <div class="form-group row text-left mx-auto">
+                    <div class="col-md-12">
+                        <label class="" for="nome">Nome: </label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="nome" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="sobrenome">Sobrenome: </label>
+                        <input class="form-control" id="sobrenome" type="text">
+                    </div>
+                    <div class="col-12">
+                        <label class="" for="email">Email: </label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-at"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="email" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="dataNasc">Data de Nascimento: </label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <input type="date" class="form-control" id="dataNasc" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="celular">Celular: </label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                            </div>
+                            <input type="text" data-mask="(00) 00000-0000" class="form-control phone_with_ddd" id="celular" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="usuario">Usuário: </label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-user-tag"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="usuario" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="senha">Senha: </label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="senha" placeholder="">
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <button type="button" class="btn mx-auto">
+                            <i class="fas fa-user-plus"></i>Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
